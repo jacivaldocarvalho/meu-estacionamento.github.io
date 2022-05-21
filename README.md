@@ -1,4 +1,4 @@
-# PROJETO DE SISTEMA DE GERENCIAMENTO PARA ESTACIONAMENTO 
+# PROJETO DE UM SISTEMA DE GERENCIAMENTO PARA ESTACIONAMENTO 
 
 ## Objetivo
 Desenvolvimento de uma aplicação para o gerenciamento de um estacionamento usando TypeScript, Javascript, HTML e CSS.
@@ -18,9 +18,9 @@ Esse projeto foi desenvolvido em uma estrutura HTML. Utilizando indiretamente a 
 ## Demo
 
 <p align="center">
- <img src="demo-meu-estacionamento.gif?raw=true" alt="Apresentação tela inicial" width="70%" height="50%" />
+ <img src="demo-meu-estacionamento.gif?raw=true" alt="Demo" width="800px" height="600px" />
 </p>
 
 
-## Versão
+## Ver
 1.0
