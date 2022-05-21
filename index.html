@@ -4,34 +4,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Estacionamento</title>
+    <link type="image/png" sizes="32x32" rel="icon" href="./assets/icons/car.ico">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Meu Estacionamento</title>
 </head>
 <body>
-    <input 
-        type="text"
-        id="nome"
-        placeholder="Digite o nome do veículo: "
-        autocomplete="off"/>
 
-    <input
-        type="text"
-        id="placa"
-        placeholder="Digite a placa do veículo: "
-        autocomplete="off"/>
+    <header>
+        <h1>Meu Estacionamento</h1>
+    </header>
 
-    <button id="cadastrar">Cadastrar</button>
+    <main>
 
-    <table>
-        <thead>
-            <tr>
-                <th>Nome</th>
-                <th>Placa</th>
-                <th>Entrada</th>
-                <th>Ações</th>
-            </tr>
-        </thead>
-        <tbody id="patio"></tbody>
-    </table>
+        <div id="cadastro-veiculo">
+
+        <input 
+            type="text"
+            id="nome"
+            placeholder="Nome do veículo"
+            autocomplete="off"/>
+
+        <input
+            type="text"
+            id="placa"
+            placeholder="Placa"
+            autocomplete="off"/>
+
+        <button id="cadastrar">Cadastrar</button>
+
+        </div>
+
+        <div id="render-table">
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Placa</th>
+                        <th>Entrada</th>
+                        <th>Finalizar</th>
+                    </tr>
+                </thead>
+                <tbody id="patio"></tbody>
+            </table>
+
+        </div>
+
+    </main>
+
+    <footer>
+
+        <div id="redes-sociais">
+            <a href="https://www.linkedin.com/in/jacivaldocarvalho/" target="_blank">
+                <img src="./assets/icons/linkdin.png" alt="Logo Instagram">
+            </a>
+
+            <a href="https://github.com/jacivaldocarvalho" target="_blank">
+                <img src="./assets/icons/github.png" alt="Logo Github">
+            </a>
+        </div>
+
+    </footer>
 
     <script src="./assets/js/script.js"></script>
 </body>

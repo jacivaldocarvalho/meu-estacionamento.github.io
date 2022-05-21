@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+/* BODY */
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+/* HEADER */
+
+header {
+    background-color: #23272a;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+}
+
+header h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: #8cc264;
+}
+
+/* MAIN */
+main{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    height: 70vh;
+    background-color: #ffffff;
+}
+
+main #render-table{
+    padding-top: 20px;
+    
+}
+
+#render-table,table{
+    width: 100%;
+    text-align: center;
+}
+
+#cadastro-veiculo button{
+ 
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+
+}
+
+#cadastro-veiculo input{
+    border: 1px solid #4CAF50;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+}
+
+#render-table th{
+    font-size: 19px;
+}
+
+.delete {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 20%;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ededed;
+    color: #8cc264;
+    height: 60px;
+    width: 100%;
+}
+
+footer img{
+    width: 40px;
+}
+
+
+
+
